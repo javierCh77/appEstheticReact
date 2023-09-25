@@ -1,0 +1,8 @@
+.container-hero{
+    display:flex;
+    height: 80vh!important;
+    background-color: black;
+    justify-content: center;
+    
+}
+
