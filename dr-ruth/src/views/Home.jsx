@@ -9,13 +9,8 @@ import Carousel from '../components/carousel/Carousel'
 
 export default function Home() {
   return (
-    <div>
-      <NavBar />
-            <div className='container-hero'>
-                    <Carousel />
-            </div>
-            
-       <Footer />
+    <div className='container-main'>
+         <NavBar />  
     </div>
   )
 }

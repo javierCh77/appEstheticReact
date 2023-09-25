@@ -1,20 +1,32 @@
 import React from 'react'
 import './navBar.css'
-import { Link } from 'react-router-dom'
 
-export default function NavBar() {
+
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import { Box, Link } from '@mui/material';
+
+
+export default function ColorTabs() {
+  const [value, setValue] = React.useState('one');
+
+  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+    setValue(newValue);
+  };
+
   return (
-      <nav class="navbar container-nav">
-         <div class="container-fluid ">
-            <div className='col-6'>
-                aqui el logo
-            </div>
-           <Link class="navbar-brand text-white" to={"/inicio"}>Inicio</Link>
-           <Link class="navbar-brand text-white" to={"/turnos"}>Turnos</Link>
-           <Link class="navbar-brand text-white" to={"/productos"}>Productos</Link>
-           <Link class="navbar-brand text-white" to={"/servicios"}>Servicios</Link>
-           <Link class="navbar-brand text-white" to={"/contacto"}>Contacto</Link>
-         </div>
-      </nav>
-  )
+    <Box sx={{ width: '100%' }}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        textColor="secondary"
+        indicatorColor="secondary"
+        aria-label="secondary tabs example"
+      >
+        <Tab value="one"  href='/productos' label="Productos" />
+        <Tab value="two" href='/servicios' label="servicios" />
+        <Tab value="three" href='/productos' label="Item Three" />
+      </Tabs>
+    </Box>
+  );
 }
