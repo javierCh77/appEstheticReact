@@ -1,1 +1,39 @@
+.container-nav{
+    height: 10vh;
+    border-radius: 0px 0px 20px 20px;
+    display: flex!important;
+    align-items: center!important;
+    flex-direction: row!important;
+    justify-content: space-around!important;
+}
 
+.container-img{
+    margin-left: 20px;
+}
+.container-link{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(77, 7, 40, 0.539);
+    gap: 40px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 40px;
+    height: 8vh;
+    
+}
+.link-nav{
+    text-decoration: none !important;
+    color:white;
+}
+.link-nav:hover{
+    color: rgb(225, 126, 176);
+    
+}
+
+
+
+.container-social{
+    margin-right: 20px;
+}

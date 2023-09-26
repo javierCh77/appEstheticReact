@@ -1,32 +1,30 @@
-import React from 'react'
+import * as React from 'react';
 import './navBar.css'
+import { Link } from 'react-router-dom'
 
 
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import { Box, Link } from '@mui/material';
 
-
-export default function ColorTabs() {
-  const [value, setValue] = React.useState('one');
-
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
-    setValue(newValue);
-  };
+export default function NavBar() {
 
   return (
-    <Box sx={{ width: '100%' }}>
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        textColor="secondary"
-        indicatorColor="secondary"
-        aria-label="secondary tabs example"
-      >
-        <Tab value="one"  href='/productos' label="Productos" />
-        <Tab value="two" href='/servicios' label="servicios" />
-        <Tab value="three" href='/productos' label="Item Three" />
-      </Tabs>
-    </Box>
+    <div className='container-nav'>
+    <nav class="navbar fixed-top ">
+       <div className='container-img'>
+            aqui el logo
+        <img src="" alt="" />
+       </div>
+        <div class="container-link">
+           <Link class="link-nav" to={"/inicio"}>Inicio</Link>
+           <Link class="link-nav" to={"/turnos"}>Turnos</Link>
+           <Link class="link-nav" to={"/productos"}>Productos</Link>
+           <Link class="link-nav" to={"/servicios"}>Servicios</Link>
+           <Link class="link-nav" to={"/contacto"}>Contacto</Link>
+        </div>
+        <div className='container-social'>
+            redes
+        </div>
+    </nav>
+    </div>
+   
   );
 }
