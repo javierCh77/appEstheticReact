@@ -6,6 +6,8 @@ import Products from './views/Products.jsx'
 import Services from './views/Services'
 import Contact from './views/Contact'
 import Carousel from "./components/carousel/Carousel";
+import Logo from "./components/logo/Logo";
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
                <Route path="/contacto" element = { < Contact /> } /> 
            </Routes>
        </Router>
+       <Logo />
        <Carousel />
    </>
   );
