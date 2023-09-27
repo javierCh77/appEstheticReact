@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url(../../assets/font/Montserrat-Light.ttf);
+}
+
 .container-nav{
     height: 10vh;
     border-radius: 0px 0px 20px 20px;
@@ -26,6 +31,7 @@
 .link-nav{
     text-decoration: none !important;
     color:white;
+    font-family: 'Montserrat';
 }
 .link-nav:hover{
     color: rgb(225, 126, 176);
@@ -37,3 +43,5 @@
 .container-social{
     margin-right: 20px;
 }
+
+

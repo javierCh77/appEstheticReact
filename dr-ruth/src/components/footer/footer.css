@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url(../../assets/font/Montserrat-Light.ttf);
+}
+
+.container-footer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat';
+}
+.footer-section1{
+    height: 35vh;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+}
+
+.footer-section2{
+    height: 8vh;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    color:aliceblue;
+}
