@@ -5,6 +5,7 @@ import Shifts from './views/Shifts'
 import Products from './views/Products.jsx'
 import Services from './views/Services'
 import Contact from './views/Contact'
+import Carousel from "./components/carousel/Carousel";
 
 
 
@@ -22,6 +23,7 @@ function App() {
                <Route path="/contacto" element = { < Contact /> } /> 
            </Routes>
        </Router>
+       <Carousel />
    </>
   );
 }

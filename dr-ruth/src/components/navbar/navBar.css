@@ -36,4 +36,12 @@
 
 .container-social{
     margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container-social img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+    cursor: pointer; 
 }
