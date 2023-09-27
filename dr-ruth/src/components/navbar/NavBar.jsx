@@ -1,8 +1,11 @@
 import * as React from 'react';
 import './navBar.css'
 import { Link } from 'react-router-dom'
-
-
+//import logos
+import logo3 from '../../assets/icon/logo3.png'
+import instagram from '../../assets/icon/instagram.svg'
+import facebook from '../../assets/icon/facebook.svg'
+import twitter from '../../assets/icon/twitter.svg'
 
 export default function NavBar() {
 
@@ -11,8 +14,7 @@ export default function NavBar() {
     <nav className="navbar fixed-top ">
        <div className='container-img'>
             aqui el logo
-        <img src="../assets/images/logoRuth.png" alt="" />
-        
+        <img src="" alt="" />
        </div>
         <div className="container-link">
            <Link className="link-nav" to={"/inicio"}>Inicio</Link>
@@ -22,9 +24,7 @@ export default function NavBar() {
            <Link className="link-nav" to={"/contacto"}>Contacto</Link>
         </div>
         <div className='container-social'>
-            <a href="#"><img src="../../assets/images/twitter.png" alt="" />Twitter</a>
-            <a href="#"><img src="" alt="" />Facebook</a>
-            <a href="#"><img src="" alt="" />Instagram</a>
+            redes
         </div>
     </nav>
     </div>
