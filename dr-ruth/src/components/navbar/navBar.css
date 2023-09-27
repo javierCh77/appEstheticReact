@@ -30,16 +30,13 @@
 }
 .link-nav{
     text-decoration: none !important;
-    color:white;
+    color:#FFEFEC;
     font-family: 'Montserrat';
 }
 .link-nav:hover{
-    color: rgb(225, 126, 176);
+    color:white;
     
 }
-
-
-
 .container-social{
     margin-right: 20px;
 }
