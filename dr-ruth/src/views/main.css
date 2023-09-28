@@ -1,11 +1,21 @@
-.container-hero{
+.container-hero {
     height: 80vh;
-    background-image: url("../assets/carousel/c3.jpg"); /* The image used *//* Used if the image is unavailable */
+    background-image: url("../assets/carousel/c3.jpg"); /* The image used */ /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.container-footer{
-    margin-top: 50rem;
+.container-footer {
+    margin-top: 6rem;
+}
+
+.container-logo {
+    padding-top: 22rem;
+}
+.container-grilla {
+    padding-top: 15rem;
+}
+.container-belle {
+    padding-top: 2rem;
 }
