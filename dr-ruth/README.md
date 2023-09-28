@@ -14,4 +14,7 @@ npm install @mui/material @emotion/react @emotion/styled
 ### font roboto
 npm install @fontsource/roboto
 
+### Swiper
+npm i swiper
+
 
