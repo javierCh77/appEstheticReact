@@ -2,10 +2,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat';
+
   
 }
 
 @font-face{
   font-family: 'Montserrat';
   src:url(./assets/font/Montserrat-Light.ttf);
+}
+
+html{
+  background-color:#FFEFEC;
 }
