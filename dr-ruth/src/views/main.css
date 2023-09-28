@@ -5,14 +5,10 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */  
 }
-.container-nav{
-    height: 30vh; 
-}
+
 /*aqui afuera del hero*/
 
-.section1 {
-    justify-content: center;   
+.container-home{
+    background-color: #FFEFEC;
 }
-
-
 

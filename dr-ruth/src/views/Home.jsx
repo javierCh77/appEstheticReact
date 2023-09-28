@@ -5,15 +5,17 @@ import NavBar from "../components/navbar/NavBar";
 import Footer from "../components/footer/Footer";
 import Section1 from "../components/sections/section1/Section1";
 import Section2 from "../components/sections/section2/Section2";
-import SectionBelle from "../components/sections/section4/SectionBelle";
 import Section3 from "../components/sections/section3/Section3";
-//import Carousel from "./components/carousel/Carousel";
+import Section4 from "../components/sections/section4/Section4";
+import Carousel from "../components/carousel/Carousel";
+import Section5 from "../components/sections/section5/Section5";
+
 
 export default function Home() {
   return (
     <div className="container-home">
        <div className="container-hero">
-           <div className="container-nav">
+           <div className="container-na">
              <NavBar />
            </div>
         </div>
@@ -26,12 +28,15 @@ export default function Home() {
       <div className="section3">
         <Section3/>
       </div>
-      <div className="container-belle">
-          <SectionBelle />
+      <div className="section4">
+        <Section4 />
       </div>
-     {/*  <div className="container-carousel">
+      <div className="container-carousel">
           <Carousel />
-      </div */}>
+      </div >
+      <div className="section5">
+          <Section5/>
+      </div>
       <div className="container-footer">
         <Footer />
       </div>

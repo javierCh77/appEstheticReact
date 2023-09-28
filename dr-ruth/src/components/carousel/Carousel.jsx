@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import './carousel.css';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import './Carousel.css';
 
 import {EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 

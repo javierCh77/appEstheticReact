@@ -2,7 +2,6 @@ import * as React from 'react';
 import './navBar.css'
 import { Link } from 'react-router-dom'
 //import logos
-import logo3 from '../../assets/icon/logo3.png'
 import instagram from '../../assets/icon/instagram.svg'
 import facebook from '../../assets/icon/facebook.svg'
 import twitter from '../../assets/icon/twitter.svg'
@@ -11,7 +10,7 @@ export default function NavBar() {
 
   return (
     <div className='container-nav'>
-    <nav class="navbar fixed-top ">
+    <nav class="fixed-top  container-nav">
        <div className='container-img'>
         <img src="" alt="" />logo
        </div>
@@ -28,7 +27,7 @@ export default function NavBar() {
         <Link ><img src={twitter} alt=""></img></Link>
         </div>
     </nav>
+    
     </div>
-   
   );
 }

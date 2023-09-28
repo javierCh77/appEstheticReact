@@ -4,14 +4,12 @@
 }
 
 .container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 10vh;
-    border-radius: 0px 0px 20px 20px;
-    display: flex!important;
-    align-items: center!important;
-    flex-direction: row!important;
-    justify-content: space-around!important;
+    text-align: center;
 }
-
 .container-img{
     margin-left: 20px;
 }
