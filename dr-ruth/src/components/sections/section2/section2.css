@@ -1,0 +1,12 @@
+.section2{
+    height: 40vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ccard{
+    margin-right: 20vw;
+}

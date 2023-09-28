@@ -1,0 +1,12 @@
+.section3{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ccard{
+    margin-right: 20vw;
+}
