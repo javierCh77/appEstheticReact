@@ -1,15 +1,16 @@
-import React from 'react'
-import './section3.css'
+import React from "react";
+import "./section3.css";
 
 export default function Section3() {
   return (
-    <div className='section3'>
-      <div className='ccard'>
-        aqui la card1
-      </div>
-      <div>
-        aqui la card2
+    <div>
+      <div className="section3">
+        <div className="card3">
+          <div class="content">
+            <h2>Acido Iluronico</h2>
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }

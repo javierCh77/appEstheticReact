@@ -9,14 +9,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
 }
 
 .card1 {
     background-image: url("../../../assets/images/img1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 25vw;
+    width: 33vw;
     height: 50vh;
     border-radius: 5px;
     box-shadow: 3px 5px 5px #747474;
@@ -29,7 +29,7 @@
     background-image: url("../../../assets/images/img2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 25vw;
+    width: 33vw;
     height: 50vh;
     border-radius: 5px;
     box-shadow: 3px 5px 5px #747474;
@@ -53,7 +53,7 @@
 
 .content h2, a {
     color: rgba(255, 255, 255, .8);
-    margin: 10px 0;
+    text-decoration: none!important;
 }
 
 .card1:hover .content {

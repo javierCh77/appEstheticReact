@@ -24,6 +24,7 @@ export default function Home() {
       </div>
       <div className="section2">
         <Section2 />
+        
       </div>
       <div className="section3">
         <Section3/>
