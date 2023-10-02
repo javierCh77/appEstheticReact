@@ -3,7 +3,7 @@ import './contacto.css'
 
 export default function Contacto() {
   return (
-    <div className='container-contacto'>
+    <div className='container-contacto' id='turnos'>
         <div className='contacto' >
              <h1>Solicita tu turno</h1>
          </div>
