@@ -4,7 +4,7 @@ import "./especialidades.css";
 
 export default function Especialidades() {
   return (
-    <div className="container-especialidades">
+    <div className="container-especialidades" id="servicios">
         <div>
             <h1>Especialidades</h1>
         </div>

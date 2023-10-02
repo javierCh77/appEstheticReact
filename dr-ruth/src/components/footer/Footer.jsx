@@ -10,7 +10,7 @@ import twitterIco from '../../assets/icon/twitterIco.svg'
 
 export default function Footer() {
   return (
-    <div className="container-footer">
+    <div className="container-footer" id="contacto">
       <div className="footer-section1">
         <div className="mt-4">
           <h4>Contacto</h4>

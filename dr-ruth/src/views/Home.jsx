@@ -14,7 +14,7 @@ import Section5 from "../components/sections/section5/Section5";
 export default function Home() {
   return (
     <div className="container-home">
-       <div className="container-hero">
+       <div className="container-hero" id="inicio">
            <div className="container-na">
              <NavBar />
            </div>

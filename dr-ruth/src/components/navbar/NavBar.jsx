@@ -12,17 +12,14 @@ export default function NavBar() {
     <div className='container'>
      <nav class="fixed-top  container-nav">
         <div class="container-link">
-           <Link class="link-nav" to={"/inicio"}>Inicio</Link>
-           <Link class="link-nav" to={"/inicio"}>Nosotros</Link>
-           <Link class="link-nav" to={"/turnos"}>Turnos</Link>
-           <Link class="link-nav" to={"/productos"}>Productos</Link>
-           <Link class="link-nav" to={"/servicios"}>Servicios</Link>
-           <Link class="link-nav" to={"/contacto"}>Contacto</Link>
-           
-        </div>
-       
+           <a class="link-nav" href={"#inicio"}>Inicio</a>
+           <a class="link-nav" href={"#servicios"}>Especiliades</a>
+           <a class="link-nav" href="#nosotro">Nosotros</a>
+           <a class="link-nav" href={"#galeria"}>Galeria</a>
+           <a class="link-nav" href={"#turnos"}>Turnos</a> 
+           <a class="link-nav" href={"#contacto"}>Contacto</a>
+        </div> 
     </nav>
-    
     </div>
   );
 }

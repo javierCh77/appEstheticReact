@@ -3,7 +3,7 @@ import "./section3.css";
 
 export default function Section3() {
   return (
-    <div className="container-section3">
+    <div className="container-section3" id="nosotro">
      <div>
         <h1 >Nuestra filosofía</h1>
         <div className="container-filosofia">

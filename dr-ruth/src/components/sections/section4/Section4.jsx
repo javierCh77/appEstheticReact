@@ -2,7 +2,7 @@ import "./section4.css";
 
 export default function Section4() {
   return (
-    <div className="container-section4">
+    <div className="container-section4" id="galeria">
       <div>
         <h1 >Galeria</h1>
       </div>
