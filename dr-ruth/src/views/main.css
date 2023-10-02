@@ -1,15 +1,19 @@
+/*aqui afuera del hero*/
+.container-home{
+  display:flex;
+  flex-direction: column;
+  background-color: #FFEFEC;
+  width: 100%;
+}
+
+
 .container-hero {
     height: 90vh;
+    width: 100vw;
     background-image: url("../assets/carousel/c3.jpg"); /* The image used */ /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */  
-}
-
-/*aqui afuera del hero*/
-
-.container-home{
-    background-color: #FFEFEC;
 }
 
 .section4{

@@ -4,7 +4,7 @@ import "./main.css";
 import NavBar from "../components/navbar/NavBar";
 import Footer from "../components/footer/Footer";
 import Section1 from "../components/sections/section1/Section1";
-import Section2 from "../components/sections/section2/Section2";
+import Especialidades from "../components/sections/section2/Especialidades";
 import Section3 from "../components/sections/section3/Section3";
 import Section4 from "../components/sections/section4/Section4";
 import Carousel from "../components/carousel/Carousel";
@@ -23,11 +23,10 @@ export default function Home() {
         <Section1 />
       </div>
       <div className="section2">
-        <Section2 />
-        
+        <Especialidades />
       </div>
       <div className="section3">
-        <Section3/>
+        <Section3 />
       </div>
       <div className="section4">
         <Section4 />

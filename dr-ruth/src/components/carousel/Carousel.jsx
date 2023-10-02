@@ -1,68 +1,68 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import './carousel.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
 
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "./carousel.css";
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-import {EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-import slide_image_1 from "../../assets/slider/img_1.jpeg";
-import slide_image_2 from "../../assets/slider/img_2.jpeg";
-import slide_image_3 from "../../assets/slider/img_3.jpeg";
-import slide_image_4 from "../../assets/slider/img_4.jpeg";
-import slide_image_5 from "../../assets/slider/img_5.jpeg";
-import slide_image_6 from "../../assets/slider/img_6.jpeg";
-import slide_image_7 from "../../assets/slider/img_7.jpeg";
+import b1 from '../../assets/slider/b1.png'
+import b2 from '../../assets/slider/b2.jpg'
+import b3 from '../../assets/slider/b3.png'
+import b4 from '../../assets/slider/b4.jpg'
+import b5 from '../../assets/slider/b5.jpg'
+import s6 from '../../assets/slider/s6.jpeg'
+import s7 from '../../assets/slider/s7.jpeg'
+
+
 
 export default function Carousel() {
-    return (
-        <div className="container">
-      <h1 className="heading">Flower Gallery</h1>
+  return (
+    <div className="container-carousel">
+      <h1 className="heading"> Nuestros trabajos</h1>
       <Swiper
-        effect={'coverflow'}
+        effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={'auto'}
+        slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
           depth: 100,
           modifier: 2.5,
         }}
-        pagination={{ el: '.swiper-pagination', clickable: true }}
+        pagination={{ el: ".swiper-pagination", clickable: true }}
         navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <img src={b1} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" />
+          <img src={b2} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" />
+          <img src={b3} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_4} alt="slide_image" />
+          <img src={b4} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_5} alt="slide_image" />
+          <img src={b5} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_6} alt="slide_image" />
+          <img src={s6} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_7} alt="slide_image" />
+          <img src={s7} alt="slide_image" />
         </SwiperSlide>
-
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
@@ -74,5 +74,5 @@ export default function Carousel() {
         </div>
       </Swiper>
     </div>
-    );
+  );
 }
