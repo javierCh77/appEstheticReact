@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url(../../../assets/font/Montserrat-Light.ttf);
+}
+#contacto{
+    font-family: 'Montserrat';
+    justify-content: center;
+    text-align: center;
+}
+
 .container-text {
     background-color: #545454;
     display: flex;
@@ -7,16 +17,25 @@
     margin-top: 3em;
 }
 
-.container-text > p {
-    /* Estilos adicionales para la imagen */
-    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
-}
-.text {
+.text{
     color: #FFEFEC;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 38px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.container-map{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color:#747474
+}
+
+.map{
+    margin-top: 3rem;
+    width: 100%;
+    height: 60vh;
 }

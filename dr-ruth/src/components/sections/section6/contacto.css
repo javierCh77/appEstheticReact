@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url(../../../assets/font/Montserrat-Light.ttf);
+}
+.container-contacto{
+    font-family: 'Montserrat';
+    justify-content: center;
+    text-align: center;
+}
+.contacto{
+    margin-top: 3rem;
+}
+.container-form{
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

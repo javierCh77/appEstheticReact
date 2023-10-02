@@ -1,0 +1,107 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url(../../../assets/font/Montserrat-Light.ttf);
+}
+
+.container-section4{
+    display:flex;
+    flex-direction: column;
+    color:#747474;
+    width: 100vw;
+    font-family: 'Montserrat';
+    align-items: center!important;
+    justify-content: center!important;
+}
+.container-img{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-galeria1{
+    display:Flex;
+    justify-content: right;
+    align-items: center;
+}
+.container-galeria2{
+    display: flex;
+    flex-direction: column;
+}
+.container-galeria3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+/*css de las galerias*/
+#g1{
+    background-image: url("../../../assets/images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 73vh;
+    background-color: rgb(60, 67, 67);
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px #747474;
+    overflow: hidden;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+
+#g2{
+    background-image: url("../../../assets/images/img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    width: 35vw;
+    height: 35vh;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px #747474;
+    overflow: hidden;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+#g3{
+    background-image: url("../../../assets/images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 35vh;
+    background-color: rgb(50, 107, 107);
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px #747474;
+    overflow: hidden;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+#g4{
+    background-image: url("../../../assets/images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 35vh;
+    margin-bottom: 20px;
+    background-color: rgb(50, 107, 107);
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px #747474;
+    overflow: hidden;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+#g5{
+    background-image: url("../../../assets/images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 35vh;
+    background-color: rgb(50, 107, 107);
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px #747474;
+    overflow: hidden;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+

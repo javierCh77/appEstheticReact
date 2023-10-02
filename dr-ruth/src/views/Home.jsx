@@ -5,10 +5,11 @@ import NavBar from "../components/navbar/NavBar";
 import Footer from "../components/footer/Footer";
 import Section1 from "../components/sections/section1/Section1";
 import Especialidades from "../components/sections/section2/Especialidades";
-import Section3 from "../components/sections/section3/Section3";
-import Section4 from "../components/sections/section4/Section4";
+import Nosotros from "../components/sections/section3/Nosotros";
+import Galeria from "../components/sections/section4/Galeria";
 import Carousel from "../components/carousel/Carousel";
 import Section5 from "../components/sections/section5/Section5";
+import Contacto from "../components/sections/section6/Contacto";
 
 
 export default function Home() {
@@ -26,16 +27,16 @@ export default function Home() {
         <Especialidades />
       </div>
       <div className="section3">
-        <Section3 />
+        <Nosotros />
       </div>
       <div className="section4">
-        <Section4 />
+        <Galeria />
       </div>
-      <div className="container-carousel">
-          <Carousel />
-      </div >
       <div className="section5">
           <Section5/>
+      </div>
+      <div className="section6">
+          <Contacto/>
       </div>
       <div className="container-footer">
         <Footer />
