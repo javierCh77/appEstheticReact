@@ -7,7 +7,6 @@ import Section1 from "../components/sections/section1/Section1";
 import Especialidades from "../components/sections/section2/Especialidades";
 import Nosotros from "../components/sections/section3/Nosotros";
 import Galeria from "../components/sections/section4/Galeria";
-import Carousel from "../components/carousel/Carousel";
 import Section5 from "../components/sections/section5/Section5";
 import Contacto from "../components/sections/section6/Contacto";
 

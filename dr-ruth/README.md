@@ -17,4 +17,7 @@ npm install @fontsource/roboto
 ### Swiper
 npm i swiper
 
+## mail 
+npm i @emailjs/browser
+
 

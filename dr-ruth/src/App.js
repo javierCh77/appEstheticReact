@@ -2,8 +2,6 @@ import {  BrowserRouter as Router,  Route,  Routes} from "react-router-dom";
 // import views
 import Home from './views/Home'
 
-
-
 function App() {
   return (
     <>
@@ -12,7 +10,6 @@ function App() {
                <Route path="*" element = { < Home /> } /> 
            </Routes>
       </Router>
-   
    </>
   );
 }
