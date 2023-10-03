@@ -10,7 +10,7 @@ export default function Section5() {
                  <p className='text'>La belleza comienza en el momento en que decides ser tú misma</p>
              </div>
              <div className='container-map'>
-                <div >
+                <div>
                   <h1>Como llegar</h1>
                 </div>
                 <div >

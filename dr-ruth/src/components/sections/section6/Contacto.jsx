@@ -35,24 +35,21 @@ export default function Contacto() {
             <label htmlFor="exampleFormControlInput1" className="form-label">Nombre</label>
                  <input type="text" name='user_name' className="form-control" id="exampleFormControlInput1" placeholder=" "/>
         </div>
-        <div className="mb-3 col-4">
-            <label htmlFor="exampleFormControlInput2" className="form-label">Apellido</label>
-                 <input type="text"  className="form-control" id="exampleFormControlInput2" placeholder=""/>
-        </div>
+        
         <div className="mb-3 col-4">
             <label htmlFor="exampleFormControlInput3" className="form-label">Email address</label>
                  <input type="email" name='user_email' className="form-control" id="exampleFormControlInput3" placeholder="name@example.com"/>
         </div>
         <div className="mb-3 col-4">
             <label htmlFor="exampleFormControlInput4" className="form-label">Celular</label>
-                 <input type="number" className="form-control" id="exampleFormControlInput4" placeholder="xxxx xx xxxxxx"/>
+                 <input type="text" name='user_cel' className="form-control" id="exampleFormControlInput4" placeholder="xxxx xx xxxxxx"/>
         </div>
         <div className="mb-3 col-4">
             <label htmlFor="exampleFormControlTextarea5" className="form-label">Mensaje</label>
             <textarea className="form-control" name='message' id="exampleFormControlTextarea5" rows="3"></textarea>
         </div>
         <div className="mb-3 col-4">
-        <button type="submit" value="send" className="btn btn-outline-success" >Enviar</button>
+        <button type="submit" value="send" className="btn btn-secondary" >Enviar</button>
         </div>
          </form>
     </div>

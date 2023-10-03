@@ -13,14 +13,14 @@ export default function Especialidades() {
               <div className="col-7 img1">
               </div>
               <div className="col-5 facial">
-                <h2>Facial</h2>
-                <h6>Plasma brillo y luminosidad</h6>
+                  Facial
+                <h5>Plasma brillo y luminosidad</h5>
               </div>
         </div>
         <div className="row">
              <div className="col-5 botox">
-                <h2>Botox</h2>
-                <h6>Cara, axilas macetero y pies</h6>
+                Botox
+                <h5>Cara, axilas macetero y pies</h5>
               </div>
               <div className="col-7 img2">
               </div>
@@ -29,14 +29,14 @@ export default function Especialidades() {
               <div className="col-7 img3">
               </div>
               <div className="col-5 acido">
-                <h2>Acido Iluronico</h2>
-                <h6>Rostro</h6>
+                Acido Iluronico
+                <h5>Rostro</h5>
               </div>
         </div>
         <div className="row">
              <div className="col-5 sculptra">
-                <h2>Sculptra</h2>
-                <h6>Bucinador y cuello</h6>
+                Sculptra
+                <h5>Bucinador y cuello</h5>
               </div>
               <div className="col-7 img4">
               </div>
