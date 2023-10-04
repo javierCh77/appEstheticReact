@@ -1,21 +1,45 @@
 /*aqui afuera del hero*/
-.container-home{
-  display:flex;
-  flex-direction: column;
-  background-color: #FFEFEC;
-  width: 100%;
+.container-home {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFEFEC;
+    width: 100%;
 }
 
 
 .container-hero {
     height: 90vh;
     width: 100vw;
-    background-image: url("../assets/carousel/c3.jpg"); /* The image used */ /* Used if the image is unavailable */
+    /*background-image: url("../assets/carousel/c3.jpg"); /* The image used */ /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */  
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.section4{
+.section4 {
     margin-top: 4rem;
+}
+
+/*Config Swiper Carousel*/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
