@@ -10,6 +10,17 @@
     justify-content: center;
     color:#545454;
 }
+.box-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #747474;
+    height: 15vh;
+    font-size: 3.5rem;
+    color:#ffefef;
+}
+
 .container-esp{
     margin-top: 3rem;
 }
@@ -19,27 +30,73 @@
     background-size:cover;
     background-repeat: no-repeat;
     height: 60vh;
+    border-radius: 0px 40px 40px 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.img1:hover .content  {
+    opacity: 1;
+}
+.content{
+    height: 60vh;
+    width: 58vw;
+    border-radius: 0px 40px 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 1s;
+}
+
+.content h2, a {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none!important;
 }
 .facial{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
+
 /*aqui la segunda img*/
 .img2{
     background-image: url("../../../assets/images/img2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height: 60vh;
+    border-radius: 40px 0px 0px 40px;
+    overflow: hidden;
+     cursor: pointer;
+}
+.img2:hover .content2  {
+    opacity: 1;
+}
+.content2{
+    height: 60vh;
+    width: 58vw;
+    border-radius: 40px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 1s;
+}
+.content2 h2, a {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none!important;
 }
 .botox{
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 /*aqui la tercer imagen*/
 .img3{
@@ -47,13 +104,21 @@
     background-size:cover;
     background-repeat: no-repeat;
     height: 60vh;
+    border-radius: 0px 40px 40px 0;
+    overflow: hidden;
+    cursor: pointer;
 }
+.img3:hover .content  {
+    opacity: 1;
+}
+
+
 .acido{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 /*aqui la cuarta imagen*/
 .img4{
@@ -61,13 +126,19 @@
     background-size:cover;
     background-repeat: no-repeat;
     height: 60vh;
+    border-radius: 40px 0px 0px 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img4:hover .content2  {
+    opacity: 1;
 }
 .sculptra{
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 
