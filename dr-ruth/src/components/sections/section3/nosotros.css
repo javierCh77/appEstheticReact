@@ -5,15 +5,20 @@
 
 .container-section3{
     display:flex;
-    flex-direction: column !important;
-    background-color: #747474;
     color:#FFEFEC;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
-    height: 70vh;
+    text-align: center;
+    height: 50vh;
     font-family: 'Montserrat';
     margin-top: 3rem;
-  
+}
+
+.filosofia{
+    width: 70vw;
+    padding: 15px;
+    border-radius: 40px 40px 0px 0px;
+    background-color: rgba(162, 82, 115, 0.592);
 }
 
 .container-filosofia{

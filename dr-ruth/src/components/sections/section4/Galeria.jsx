@@ -35,9 +35,9 @@ export default function Section4() {
     );
   };
   return (
-    <div className="container-section4" id="galeria">
-      <div>
-        <h1>Galeria</h1>
+    <div className="container-section4 " id="galeria">
+      <div className="box-title mb-4">
+        Galeria
       </div>
 
       <div className="col-12">

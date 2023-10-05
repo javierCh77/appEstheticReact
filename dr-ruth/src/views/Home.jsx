@@ -7,7 +7,7 @@ import Section1 from "../components/sections/section1/Section1";
 import Especialidades from "../components/sections/section2/Especialidades";
 import Nosotros from "../components/sections/section3/Nosotros";
 import Galeria from "../components/sections/section4/Galeria";
-import Section5 from "../components/sections/section5/Section5";
+import Map from "../components/sections/section5/Map";
 import Contacto from "../components/sections/section6/Contacto";
 
 // Import Swiper React components
@@ -61,7 +61,7 @@ export default function Home() {
         <Galeria />
       </div>
       <div className="section5">
-        <Section5 />
+        <Map/>
       </div>
       <div className="section6">
         <Contacto />

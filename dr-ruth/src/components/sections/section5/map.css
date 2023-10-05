@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url(../../../assets/font/Montserrat-Light.ttf);
+}
+#contacto{
+    font-family: 'Montserrat';
+    justify-content: center;
+    text-align: center;
+}
+
+
+.text{
+    color: #FFEFEC;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 38px;   
+}
+.map{
+    width: 100vw;
+    height: 60vh;
+}
+/*section personal*/
+
+.container-ruth{
+    font-family: 'Montserrat';
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-ruth{
+    background-image: url("../../../assets/images/img1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 5px #747474;
+    width: 40vw;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.text-ruth{
+    display:Flex;
+    margin-left: 20px;
+    flex-direction: column;
+    text-align: left;
+}
